@@ -107,6 +107,25 @@ h2 {
     color: var(--secondary-color);
 }
 
+.story-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.story-content li {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.story-content li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -119,6 +138,46 @@ footer {
     padding: 2rem;
     color: var(--secondary-color);
     background-color: white;
+}
+
+.lessons-section {
+    background-color: white;
+    padding: 4rem 2rem;
+}
+
+.lessons-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lessons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.lesson-card {
+    background: var(--background-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.lesson-card:hover {
+    transform: translateY(-5px);
+}
+
+.lesson-card h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.lesson-card p {
+    color: var(--secondary-color);
+    line-height: 1.6;
 }
 
 @media (max-width: 768px) {
