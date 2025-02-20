@@ -2,6 +2,10 @@
 
 A minimalist landing page that tells my story and showcases my projects. Built with pure HTML, CSS, and JavaScript.
 
+## Live Site
+
+Visit the live site at: [https://kkeyes1.github.io/verifyauth/](https://kkeyes1.github.io/verifyauth/)
+
 ## Features
 
 - Clean, modern design
